@@ -1,0 +1,186 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*section{
+    width: 100%;
+}
+
+/* utilities */
+
+.w-70 {
+    width: 70%;
+}
+
+.m-auto {
+    margin: 0 auto;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.border{
+    border: 2px dotted black;
+}
+
+/* header */
+
+.header{
+    background-color: lightblue;
+    height: 80px;
+}
+
+.container-header {
+    background-color: orange;
+    height: 30px;
+    display: flex;
+}
+
+.logo{
+    border: 2px dotted black;
+    width: 20%;
+    height: 30px;
+    line-height: 20px;
+    padding: 3px;
+}
+
+.navigator{
+    border: 2px dotted black;
+    width: 80%;
+    height: 30px;
+    padding: 3px;
+    text-align: center;
+}
+
+.login{
+    border: 2px dotted black;
+    width: 20%;
+    height: 30px;
+    padding: 3px;
+    text-align: end;
+}
+
+/* banner */
+
+.container-banner{
+    background-color: rgb(34, 34, 127);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.rett-violet{
+    background-color: palevioletred;
+    width: 40%;
+    height: 350px;
+}
+
+/* inizio blocchi */
+
+/* colonna blu grande */
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.d-flex-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* blocco 1 */
+
+.rett-blu1{
+    background-color: rgb(80, 80, 198);
+    width: 60%;
+    height: 400px;
+}
+
+.rett-rosa1{
+    background-color: rgb(210, 109, 198);
+    width: 40%;
+    height: 400px;
+}
+
+/* colonna blu piccola */
+
+.blocco2{
+    background-color: rgb(184, 189, 194);
+}
+
+/* colonna blu grande blocco 3*/
+
+
+/* rettangolo verde grande  */
+
+.blocco4{
+    background-color: rgb(184, 189, 194);
+}
+
+.rett-verde{
+    background-color: green;
+    height: 700px;
+}
+
+/* cinque colonne */
+
+.blocco5{
+    background-color: rgb(53, 50, 50);
+    margin-bottom: 1px;
+}
+
+.container-colonne{
+    height: 350px;
+}
+
+.colonna1{
+    background-color: rgb(199, 77, 77);
+    width: calc(100%/6);
+    flex-grow: 1;
+    height: 350px;
+}
+
+.colonna2, .colonna3, .colonna4, .colonna5{
+    background-color: rgb(74, 195, 122);
+    width: calc(100%/6);
+    height: 350px;
+    border: 2px dotted white;
+}
+
+/* footer */
+
+.footer{
+    background-color: rgb(53, 50, 50);
+    height: 100px;
+    display: flex;
+}
+
+.container-footer{
+    background-color:aquamarine;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-footer{
+    background-color: rgb(199, 77, 77);
+    height: 20px;
+    text-align: center;
+}
+
+.bottone-footer{
+    background-color: rgb(199, 77, 77);
+    height: 20px;
+    text-align: center;
+}
