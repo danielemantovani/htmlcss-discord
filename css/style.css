@@ -10,6 +10,10 @@
     width: 100%;
 }
 
+body{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 /* utilities */
 
 .w-70 {
@@ -24,25 +28,26 @@
     flex-direction: row-reverse;
 }
 
-.border{
-    border: 2px dotted black;
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
 }
 
 /* header */
 
 .header{
-    background-color: lightblue;
+    background-color: rgb(37 94 233);
     height: 80px;
 }
 
 .container-header {
-    background-color: orange;
     height: 30px;
     display: flex;
 }
 
 .logo{
-    border: 2px dotted black;
     width: 20%;
     height: 30px;
     line-height: 20px;
@@ -50,15 +55,19 @@
 }
 
 .navigator{
-    border: 2px dotted black;
     width: 80%;
     height: 30px;
     padding: 3px;
     text-align: center;
+    text-decoration: inherit;
+}
+
+a{
+    text-decoration: inherit;
+    color: white;
 }
 
 .login{
-    border: 2px dotted black;
     width: 20%;
     height: 30px;
     padding: 3px;
@@ -68,50 +77,41 @@
 /* banner */
 
 .container-banner{
-    background-color: rgb(34, 34, 127);
     height: 400px;
     display: flex;
     justify-content: center;
     padding: 20px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 
 .rett-violet{
-    background-color: palevioletred;
     width: 40%;
-    height: 350px;
+    /* height: 350px; */
+    text-align: center;
+    color:white;
 }
 
 /* inizio blocchi */
 
-/* colonna blu grande */
-
-.d-flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-}
-
-.d-flex-p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 /* blocco 1 */
 
-.rett-blu1{
-    background-color: rgb(80, 80, 198);
-    width: 60%;
-    height: 400px;
+
+h2{
+    font-size: 3rem;
+    margin-bottom: 32px;
 }
 
-.rett-rosa1{
-    background-color: rgb(210, 109, 198);
+p{
+    font-size: 1.3rem;
+}
+
+/* .rett-rosa1{
     width: 40%;
     height: 400px;
-}
+} */
 
 /* colonna blu piccola */
 
