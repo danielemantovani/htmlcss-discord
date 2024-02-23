@@ -35,6 +35,11 @@ body{
     padding: 50px 0px;
 }
 
+a{
+    text-decoration: inherit;
+    color: white;
+}
+
 /* header */
 
 .header{
@@ -45,36 +50,40 @@ body{
 .container-header {
     height: 30px;
     display: flex;
+    justify-content: space-between;
 }
 
-.logo{
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+}
+/* .logo{
     width: 20%;
     height: 30px;
     line-height: 20px;
     padding: 3px;
-}
+} */
 
 .navigator{
-    width: 80%;
+    width: 800px;
     height: 30px;
     padding: 3px;
     text-align: center;
-    text-decoration: inherit;
-}
-
-a{
-    text-decoration: inherit;
-    color: white;
+    
 }
 
 .login{
-    width: 20%;
+    background-color: white;
+    color: black;
+    width: 60px;
     height: 30px;
-    padding: 3px;
-    text-align: end;
+    padding: 6px;
+    text-align: center;
+    border-radius: 15px;
+
 }
 
-/* banner */
+/* hero */
 
 .container-banner{
     height: 400px;
@@ -88,11 +97,29 @@ a{
 
 .rett-violet{
     width: 40%;
-    /* height: 350px; */
     text-align: center;
     color:white;
 }
 
+.p-hero{
+    margin-bottom: 40px;
+}
+
+.download{
+    background-color: white;
+    margin-right: 20px;
+    color: black;
+    font-size: 1.3rem;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.apri{
+    background-color: rgb(35 39 42);
+    font-size: 1.3rem;
+    padding: 15px;
+    border-radius: 30px;
+}
 /* inizio blocchi */
 
 
@@ -116,8 +143,20 @@ p{
 /* colonna blu piccola */
 
 .blocco2{
-    background-color: rgb(184, 189, 194);
+    background-color:rgb(246 246 246);
 }
+
+/* .rett-blu1{
+    background-color: rgb(80, 80, 198);
+    width: 60%;
+    height: 400px;
+}
+
+.rett-rosa1{
+    background-color: rgb(210, 109, 198);
+    width: 40%;
+    height: 400px;
+} */
 
 /* colonna blu grande blocco 3*/
 
@@ -125,18 +164,33 @@ p{
 /* rettangolo verde grande  */
 
 .blocco4{
-    background-color: rgb(184, 189, 194);
+    background-color: rgb(246 246 246);
 }
 
 .rett-verde{
-    background-color: green;
-    height: 700px;
+    /* background-color: green; */
+    /* height: 700px; */
+    text-align: center;
+}
+
+.start{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.mac{
+    color: black;
+    background-color:rgb(114 137 218);
+    padding: 15px;
+    border-radius: 30px;
 }
 
 /* cinque colonne */
 
 .blocco5{
-    background-color: rgb(53, 50, 50);
+    background-color: rgb(35 39 42);
     margin-bottom: 1px;
 }
 
@@ -144,43 +198,69 @@ p{
     height: 350px;
 }
 
+h4{
+    font-size: 2rem;
+}
+
 .colonna1{
-    background-color: rgb(199, 77, 77);
     width: calc(100%/6);
     flex-grow: 1;
     height: 350px;
+    color:rgb(114 137 218) ;
 }
 
 .colonna2, .colonna3, .colonna4, .colonna5{
-    background-color: rgb(74, 195, 122);
+    /* background-color: rgb(74, 195, 122); */
     width: calc(100%/6);
     height: 350px;
     border: 2px dotted white;
 }
 
+.social{
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    color: white;
+}
+
 /* footer */
 
 .footer{
-    background-color: rgb(53, 50, 50);
+    background-color: rgb(35 39 42);
     height: 100px;
     display: flex;
 }
 
 .container-footer{
-    background-color:aquamarine;
     height: 80px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.logo-footer{
-    background-color: rgb(199, 77, 77);
-    height: 20px;
+.t-registrati{
+    background-color:rgb(114 137 218);
+    height: 40px;
+    width: 100px;
     text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
 }
 
-.bottone-footer{
-    background-color: rgb(199, 77, 77);
+/* .logo-footer{
+    /* height: 20px; */
+    /* text-align: center; */
+
+
+/* .bottone-footer{
     height: 20px;
     text-align: center;
-}
+} */
